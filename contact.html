@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - CRC Centre Requalification CO2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">CRC</div>
+                    <div class="logo-subtitle">Centre Requalification CO2</div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="partenariats.html">Certifications</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contactez-nous</h1>
+            <p>Nous sommes à votre écoute</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-box">
+                    <h2>Nos Coordonnées</h2>
+                    
+                    <div class="info-item">
+                        <h3>📍 Adresse</h3>
+                        <p>4 Rue de la Gratiole<br>
+                        Z.A. Les Brosses N°2<br>
+                        37270 LARÇAY</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>📞 Téléphone</h3>
+                        <p><a href="tel:0247242015">02.47.24.20.15</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>✉️ Email</h3>
+                        <p><a href="mailto:crc37@orange.fr">crc37@orange.fr</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>🕐 Horaires</h3>
+                        <p>Lundi - Vendredi<br>
+                        8h00 - 12h00 / 14h00 - 18h00</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>🚗 Zone d'intervention</h3>
+                        <p>Indre-et-Loire (37) et départements limitrophes</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-box">
+                    <h2>Demande de devis</h2>
+                    <p class="form-intro">Remplissez ce formulaire, nous vous recontacterons rapidement.</p>
+                    
+                    <form action="mailto:crc37@orange.fr" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="nom">Nom / Société *</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telephone">Téléphone *</label>
+                            <input type="tel" id="telephone" name="telephone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service concerné</label>
+                            <select id="service" name="service">
+                                <option value="">-- Sélectionnez --</option>
+                                <option value="vente">Vente d'extincteurs</option>
+                                <option value="maintenance">Maintenance</option>
+                                <option value="requalification">Requalification</option>
+                                <option value="conseil">Conseil / Mise en conformité</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Votre message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Envoyer ma demande</button>
+                        <p class="form-note">* Champs obligatoires</p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <h2>Nous trouver</h2>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.5!2d0.7833!3d47.3633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDIxJzQ4LjAiTiAwwrA0Nic1OS45IkU!5e0!3m2!1sfr!2sfr!4v1234567890"
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+                <p class="map-note">📍 Zone Artisanale Les Brosses - Larçay (37270)</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h4>CRC</h4>
+                    <p>Centre Requalification CO2</p>
+                    <p>4 Rue de la Gratiole<br>37270 LARÇAY</p>
+                </div>
+                <div>
+                    <h4>Horaires</h4>
+                    <p>Lundi - Vendredi<br>8h00 - 18h00</p>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <p>Tél : 02.47.24.20.15<br>Email : crc37@orange.fr</p>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2025 CRC - Tous droits réservés</p>
+        </div>
+    </footer>
+</body>
+</html>
